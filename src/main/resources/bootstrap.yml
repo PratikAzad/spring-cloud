@@ -1,0 +1,12 @@
+server:
+  port: 8015
+
+
+spring:
+  application:
+    name: client-1
+  cloud:
+    config:
+      uri: http://localhost:8000
+  profiles:
+    active: dev
